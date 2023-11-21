@@ -1,0 +1,51 @@
+.container {
+  margin: 7px;
+}
+
+.formAddNotas {
+  margin: 0 0 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nombreAddNota {
+  width: 50%;
+  min-width: 200px;
+}
+
+.descripcionAddNota {
+  width: 70%;
+  min-width: 400px;
+  
+}
+
+.descripcionAddNota, .nombreAddNota{
+  margin: 0 0 20px 0;
+  padding: 6px 8px;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  resize: none;
+  overflow-y: hidden;
+  border-width: 0 0 1px 0;
+  outline: none;
+  transition: 0.2s linear;
+}
+
+.nombreAddNota:focus,
+.descripcionAddNota:focus {
+  border-width: 0 0 1px 0;
+  border-color: blue;
+}
+
+.btnGuardar {
+  padding: 5px 25px;
+  background-color: transparent;
+  border: 1px solid black;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnGuardar:hover{
+  
+  background-color: rgba(0, 0, 255, 0.212);
+}

@@ -1,0 +1,8 @@
+.colors {
+  border-radius: 0.5em;
+  border: 0px;
+  padding: 0.5rem 3rem;
+  margin: 0 10px 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
